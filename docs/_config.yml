@@ -1,0 +1,26 @@
+title: "gee"
+description: wiki and documents of gee
+url: https://gee.hahwul.com
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+logo: "https://user-images.githubusercontent.com/13212227/107406554-e72ae780-6b4b-11eb-8f66-2f7e0d925f78.png"
+permalink: pretty
+heading_anchors: true
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+aux_links:
+  "GitHub Repository":
+    - "//github.com/hahwul/gee"
+plugins:
+  - jekyll-seo-tag
+back_to_top: true
+back_to_top_text: "Back to top"
+#ga_tracking: UA-
+#ga_tracking_anonymize_ip: true
